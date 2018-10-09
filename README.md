@@ -349,7 +349,7 @@ We don't have any data in our list yet, but let's build the capacity to display 
 
 Now let's start building our app to allow display of items!
 
-We'll use `RecyclerView` to display data. Open `src/res/layout/activity_main.xml`, switch to `Text` view, and replace the `<TextView>` with the following:
+We'll use `RecyclerView` to display data. Open `src/res/layout/content_main.xml`, switch to `Text` view, and replace the `<TextView>` with the following:
 
 ```java
 <android.support.v7.widget.RecyclerView
